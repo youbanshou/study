@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "perfor-manage-koyo",
+  "private_key_id": "28d598bd8327972a740aa15c7e05ea56c5499d4d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCXGTx9/U3mrzpQ\nXJuriTFsrChlrfVpK+KP3QT5WKx8tJyVl3j3UIYR1WG2hi4xa9/WtYxk4fZeRa4F\nTpwPRSeQnc3lkCG7DM5vmvGdgJ6Yl7lSD3+54BaUDXsmQTwfNghA2+aPytAWdbel\nH+6hdNU69Klln+38OZ7wvqHWWtIGLoOCnwgxG3tQFQxgD68QKZuh54xCEAsnoDRo\nNxXkL7EpWBcIPZCD7NF1FmauVxIpr7sUmunPxJKpOiyoVCkh6GRjE+240GLeNvtI\nViM/VlSEYCWmLadUhED+aSAfi/02EYGfobWzywU7G+dhe33Awf3cwtpTmzsqKrGL\n0z4SY7E/AgMBAAECggEAM/XIuKbICEFP81y1Z7rJFU7qoXS+BQnDYqel0z1sK4JM\nqqCpR5sYT7+qV4MzFWm8UvChs/uEpoyduFN9FT85yOCLcpsrDlDsGLMWzYvyfhUG\n9LJBwSDPguBT7ibWzwDcu7kjQ2WCQ4b9vToK7Njpjtmd+0WRKICEKNPVgYo/2UHU\nN9gtBTVukfiZYKLQqBqEUkd6AmKOHAVmE7yxVroIm3g+ZEQIlP/Y049iE/mAAJri\niEMVQnAM21Bpz+TMnCVUCG+JWiPuf5Y/ht5xQslSVD0EmK/TVVBk5u+kyKkO0J1O\nx3OAPj38G6jwW9BL2x9ufaKvqP+bcZBFidu42giJyQKBgQDMUGkbDZQT0eeNS5V7\nfS66BR2HmyTGbHnTIbvNAg4RJAxujDa4tbz3q39PWryyL1tZXZg6Gk66Y4HCFms2\nG77xxrUsl+yoYMOGSau3yVI/603371z5RYYpwAfISbc4Wqn2s5DsQjJPD+D+4HR/\niKC8D1qD2ObGniqqwxRh7rNFpQKBgQC9Uoi/PmBvB97r65IwRQJZy0XaDpZL+6Qf\nxA8cdAArMrAtJyh3t+sP3/caMkTUbh07UchXEV/oNHxNcRYqBoPF8aADzHcsdhrD\njZBCH2VtNxswLrG8zRQroScbsl6spKb3p3b8+LXdzgc2dt1mV+XmFpeca73vYdmH\ng+3d/mSOEwKBgCwTZLk7Uqh77dHjbln3hW8Hz3kDlQlhOV68tkDhops8BZqLkPqD\n6kIbsxkxX+eoo7JBqKdQKY+4C7QNFg/UKHsL/OWj2J/yT/vWRL8fJSk439cOwiXc\nQ7caABPLI0V6+ZOI5UiydxvrNwSE81zX4qTvQv2SeyZ51IaGEw2VawMpAoGAPV3S\nW4MhiPvZI0mhginsQCTmiG7wAsMXiQBpEYT8RQRSHOCzelLQS74B/6jJrL3glcjF\nkotcNg1FOWjtkUO5VOEkR/bvria+OCLb3sMEgmk5U93e2N70qcu7vHuNupJIWMAc\njpUjhjjxF5Nh4nmdWH58OESoNT7XXtjBspJyD6cCgYBPCFAULZ3D7OJbre+MUX5s\nMorxAK/bemwQjLp02k9ux0MmnmDAVkEkeqB52UHhQzp8FYqcMUzY0QiaUn7ZHMrh\nDrFaaCWWpxTouj+wje+woJBen7UTC0RNWb+N0DgbE5umprbb9iD4Y1iEQjcUAnuA\nlJ1vN6HVxWo4QKND4N7jYw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "python@perfor-manage-koyo.iam.gserviceaccount.com",
+  "client_id": "110014129113760335616",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/python%40perfor-manage-koyo.iam.gserviceaccount.com"
+}

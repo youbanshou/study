@@ -1,0 +1,10 @@
+version: '3'
+services:
+  python_movie:
+    restart: no
+    build: .
+    container_name: 'movie_python'
+    working_dir: '/root/'
+    tty: true
+    volumes:
+      - ./opt:/root/opt

@@ -1,0 +1,41 @@
+<!DOCTYPE html><head>
+    <meta charaset="utf-8">
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.38/browser.min.js"></script>
+</head><body>
+    <div id="root"></div>
+    <script type="text/babel">
+        setInterval(showClock,1000)
+        function showClock(){
+            const z2 = (v)=>{
+                const s = "00" + v
+                return s.substr(s.length -2,2)
+            }
+            const d =new Date()
+            const hour = z2(d.getHours())
+            const min = z2(d.getMinutes())
+            const sec = z2(d.getSeconds())
+            const binstr = hour+min+sec
+            const style0 = {color:'brown'}
+            const style1 = {color:'red'}
+            const lines=[]
+            for(let i = 0;i<binstr.length;i++){
+                const v = parseInt(binstr.substr(i,1))
+                const bin = "0000" + v.toString(2)
+                const bin8 = bin.substr(bin.length -4,4)
+                for(let j =0;j < bin8.length;j++){
+                    if (bin8.substr(j,1)==='0') {
+                        lines.push(<span style={style0}>〇</span>)
+                    } else {
+                        lines.push(<span style={style1}>●</span>)
+                    }
+                }
+                lines.push(<br />)
+            }
+            
+            const root = document.getElementById("root")
+            ReactDOM.render(<div>{lines}</div>,root)
+        }
+    </script>
+</body></html>
