@@ -9,7 +9,12 @@ logging.basicConfig(filename='./logger.log', level=logging.DEBUG)
 
 
 
+
+
 frames_path_list = glob.glob('./workdir/*')
+
+
+
 
 
 for video_path in videos_list:
