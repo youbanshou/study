@@ -9,6 +9,9 @@ from natsort import natsorted
 logging.basicConfig(filename='./logger.log', level=logging.INFO)
 frames_path_list = glob.glob('./workdir/*')
 
+
+
+
 #マッチング判定
 def judge_match(frame_path,template_path):
     template = cv2.imread(template_path) #検索元画像ファイルパスを指定
